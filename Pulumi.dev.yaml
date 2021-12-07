@@ -1,0 +1,6 @@
+config:
+  gcp-py-cloudrun-cloudsql:db-name: project-db
+  gcp-py-cloudrun-cloudsql:db-password:
+    secure: AAABAPyRKn8N1jbAfXLhBcS9f8ldjslVipm7R+mec2/+r3OCIwy+Ps0Z3c/S2IdMG2o=
+  gcp:project: sandbox-sean2davis1-978ebd70
+  gcp:region: us-central1
