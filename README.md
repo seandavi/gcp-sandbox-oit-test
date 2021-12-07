@@ -30,7 +30,7 @@ brew install pulumi
 
     ```
     $ pulumi config set gcp:project YOURGOOGLECLOUDPROJECT
-    $ pulumi config set gcp:region europe-west1
+    $ pulumi config set gcp:region us-central1
     $ pulumi config set db-name project-db
     $ pulumi config set --secret db-password SuuperSecret12345!
     ```
