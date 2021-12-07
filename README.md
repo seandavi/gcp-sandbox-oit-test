@@ -51,6 +51,7 @@ brew install pulumi
     ```
     $ gcloud sql connect $(pulumi stack output cloud_sql_instance_name) -u $(pulumi config get db-name) --project $(pulumi config get gcp:project)
     ```
+    Note: this step will not work without a cloud sql proxy in place. 
 
 1. Cleanup
 
